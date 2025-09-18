@@ -41,4 +41,64 @@ for i in range(1,5,1):
         print(i,j)
 
 #list, tuples and set
+veggies = ["potato", "spinach", "cabbage"]
+#in the list the index starts from 0 so potato is index 0, spinach is index 1 and cabbage is index 2
+print(veggies[1])
+
+#List items can be accessed from the end too using -ve indexing 
+#the last item's index is -1 
+print(veggies[-1])
+
+bird = ["kiwi" ,"hen", "peacock", "sparrow", "robin", "vulture", "crow"]
+print(bird[2:4])
+print(bird[:4])#4th item not included
+print(bird[3:])#3rd item to last
+
+#to check an item in a list we use keyword 'in'
+
+#to change an item in list 
+bird[3] = "eagle"
+print(bird)
+
+#to insert new items in a list
+bird.insert(3,"duck")
+print(bird)
+
+#to add item at the end of the list use .append()
+bird.append("parrot")
+print(bird)
+
+#to add elements from another list use .extend
+animal = ["dog", "cat"]
+bird.extend(animal)
+print(bird)
+
+#to remove an item use .remove
+bird.remove("hen")
+print(bird)
+
+#to remove an item from specific index use .pop(index)
+bird.pop(3)
+print(bird)
+
+#to delete an item we use del list_name[index]
+del bird[3]
+print(bird)
+
+'''
+#to clear the entire list we use .clear()
+bird.clear()
+print(bird)
+'''
+
+#.reverse() reverses the list items
+bird.reverse()
+print(bird)
+
+# .sort() sorts the list items in alphabetical order and in ascending order for numbers
+
+#to sort in descending order use:
+bird.sort(reverse = True)
+print(bird)
+
 
