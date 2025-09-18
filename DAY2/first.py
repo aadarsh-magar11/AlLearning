@@ -121,3 +121,32 @@ print(new)
 
 #to add two sets we use union or |
 
+
+# for taking input from  the user we use input keyword
+print("enter the number:")
+num = input()
+#or
+
+
+
+
+#MATCH in python is similar to switch case in C and C++
+month = 3
+match month:
+    case 1:
+        print("january")
+    case 2:
+        print("february")
+    case 3:
+        print("march")
+    case _:
+        print("later to be added")
+
+#combine match
+#for the number entered above
+num = int(input("enter the number:"))
+match num:
+    case 1 | 2 | 3 | 4 | 5 :
+        print("first five whole numbers")
+    case 6 | 7 | 8 | 9 | 10 :
+        print("other whole number")
