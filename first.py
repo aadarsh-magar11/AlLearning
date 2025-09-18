@@ -101,4 +101,23 @@ print(bird)
 bird.sort(reverse = True)
 print(bird)
 
+#tuple
+new = ("hello", "world", "python")
+print(new)
+
+#can't add new items directly to tuple so convert tuple to list and add item then convert back to tuple
+#or can create a tuple and add new tuple to existing one
+
+
+
+
+#set - {......} it is unchangeable but items can be added and removed 
+# .add() - it adds items to the set
+# .update(iteratives) - any list,set,tuple can be added to the existing set
+# to remove an item we use .remove() or .discard() but if the item doesnot exists then discard doesnot create error
+# .pop() removes the first item in set
+# .clear() empties the set but del deletes the set completely
+
+
+#to add two sets we use union or |
 
