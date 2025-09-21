@@ -1,0 +1,2 @@
+this is a sample text file to check the frequency of a word in this file
+sample sample sample file file file file file file word word word word word is is is is 

@@ -1,0 +1,5 @@
+this is learning python file handling
+File handling in Python involves interacting with external files to perform operations such as reading, writing, appending, and managing data.
+ This is achieved using the built-in open() function, which returns a file object.
+1. Opening and Closing Files:
+The open() function takes two main arguments: the filename (including its path if not in the current directory) and the access mode.
