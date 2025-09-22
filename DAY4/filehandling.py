@@ -62,9 +62,9 @@ with open("textonly.txt","r") as text:
 to check whether a file exists of not
 import os
 if os.path.exists("file name"):
-    os.remove("file name"
+    os.remove("file name")
 else:
-    print("the file doesnot exist
+    print("the file doesnot exist")
 '''
 
 # a folder can also be deleted using os.rmdir("folderName")
