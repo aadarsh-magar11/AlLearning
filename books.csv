@@ -2,3 +2,15 @@ id,book,author,quantity
 101,python basics,john doe,5
 102,data structures,jane smith,3
 103,machine learning,kevin p. murphy,4
+104,deep learning,ian goodfellow,6
+105,artificial intelligence,stuart russell,7
+106,computer networks,andrew s. tanenbaum,5
+107,operating system concepts,abraham silberschatz,4
+108,discrete mathematics,kenneth h. rosen,8
+109,object oriented programming,bjarne stroustrup,6
+110,algorithms,thomas h. cormen,3
+111,computer architecture,john l. hennessey,4
+112,databases systems,raghu ramakrishnan,5
+113,software engineering,ian sommerville,6
+114,cloud computing,rajkumar buyya,7
+115,cyber security,charlie kaufman,5

@@ -29,7 +29,7 @@ def my_function(*animal):
 my_function("chimpanzee", "elephant", "girrafe")
 
 
-#keyword argument - can be used instead of using index in tuple or list just by assigning a name to the item
+#keyword argument = can be used instead of using index in tuple or list just by assigning a name to the item
 def my_function(animal1,animal2,animal3):
   print("The youngest child is " + animal1)
 

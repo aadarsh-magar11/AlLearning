@@ -1,0 +1,4 @@
+username,pin,balance
+ram,1234,100000
+shyam,2323,50000
+sita,1221,60000
