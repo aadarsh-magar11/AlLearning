@@ -44,5 +44,3 @@ class ATM(user):
         print("1. balance inquiry")
         print("2. withdraw")
         print("3. desposit")
-
-                
