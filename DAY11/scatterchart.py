@@ -14,5 +14,8 @@ plt.scatter(x1,y1,s=150,
             alpha=0.7,
             color="red",
             label="CLASS A")
+plt.xlabel("TIME STUDIED")
+plt.ylabel("MARKS SCORED")
+plt.title("STUDY_MARKS CORRELATION")
 plt.legend()
 plt.show()
