@@ -20,8 +20,8 @@ def prep_test_comp(data):
     prep=len(df[df["test preparation course"]=="completed"])
     print(f"out of {total} students, {prep} completed their test preparation course")
 
-def piechart(dat):
-    sns.histplot(data=dat, x="test preparation course", hue="math score", palette="set2")
+def piechart(data):
+    sns.heatmap(data[["math score","reading score","writing score"]].corr(), annot=True, cmap="Reds")
     plt.show()
 
 pass_std(df)
